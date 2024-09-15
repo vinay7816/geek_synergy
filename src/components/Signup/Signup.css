@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #ffffff;
+  }
+  
+  .container-fluid {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  .signup-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-bottom: 1px solid #343a40;
+  }
+  
+  .signup-box {
+    background-color: #222;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  h5 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .form-input {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .form-input::placeholder {
+    color: #bbb;
+  }
+  
+  .create-account {
+    background-color: #0524BF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-account:hover {
+    background-color: #041a89;
+  }
+  
+  p {
+    margin-top: 20px;
+    color: #ccc;
+  }
+  
+  p a {
+    color: #4285F4;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-footer {
+    background-color: #121212;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .signup-footer p {
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .signup-box {
+      padding: 30px;
+      max-width: 350px;
+    }
+  
+    .form-input {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .signup-box {
+      padding: 20px;
+      max-width: 300px;
+    }
+  
+    h5 {
+      font-size: 20px;
+    }
+  }
+  
