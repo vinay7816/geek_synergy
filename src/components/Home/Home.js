@@ -79,7 +79,7 @@ const Home = () => {
   };
  const handlelogout=(e)=>{
   e.preventDefault();
-  localStorage.removeItem('loggedin');
+  localStorage.removeItem('isloggedin');
   navigate("/");
   
  }
