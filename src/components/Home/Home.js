@@ -140,7 +140,7 @@ const Home = () => {
               >
                 Company Info
               </button>
-              <Tooltip title="Delete">
+              <Tooltip title="Logout">
               <LogoutIcon onClick={handlelogout} style={{cursor:"pointer"}}/>
               </Tooltip>
               
